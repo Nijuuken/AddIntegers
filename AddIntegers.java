@@ -4,9 +4,11 @@ public class AddIntegers {
 
         int first = 15;
         int second = 25;
+        int third = 35;
 
-        System.out.println("Enter two numbers: " + first + " " + second);
-        int sum = first + second;
+        System.out.println("Enter three numbers: " + first + " " + second
+        + " " + third);
+        int sum = first + second + third;
 
         System.out.println("The sum is: " + sum);
     }
